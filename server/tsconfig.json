@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "types"],  // ✅ Add this line
+  "exclude": ["node_modules", "dist"]
+}
